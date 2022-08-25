@@ -12,6 +12,6 @@ func main() {
 	fmt.Println("Escrevendo modo main")
 	auxiliar.Escrever()
     // validação de e-mail 
-	erro :=checkmail.ValidateFormat("devbook@gmail.com")
+	erro := checkmail.ValidateFormat("devbook@gmail.com")
 	fmt.Println(erro)
 }
