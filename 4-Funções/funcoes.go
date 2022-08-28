@@ -27,7 +27,7 @@ func calculosMatematicos(n1, n2 int8) (int8, int8, int8, int8) { //criação de 
 }
 
 func main() {
-	// somar
+	// somar funções do app
 	soma := somar(10, 20) // criação de uma variavel "soma" recebe somar da func anterior com 10 e 20
 	fmt.Println(soma)
     // subtração
