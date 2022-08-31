@@ -36,7 +36,7 @@ func main() {
 	slice2 := array2[1:3]
 	fmt.Println(slice2)
 
-	//Arrays Internos
+	//Arrays Internos os tste 
 	fmt.Println("-----------------")
 	slice3 := make([]float32, 10, 15)
 	fmt.Println(slice3)
