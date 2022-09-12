@@ -3,7 +3,7 @@ package enderecos
 import "strings"
 
 //TipoDeEndreco DE ENDREÇO VERIFICA SE TEM UM ENDEREÇO VALIDO E AVISA
-func TipoDeEndereco(enderecos string) string {
+func TipoDeEndereco(endereco string) string {
 	tiposValidos := []string{"rua", "avenida", "estrada", "rodivia"}
 
 	enderecoEmLetraMinuscula := strings.ToLower(endereco)
