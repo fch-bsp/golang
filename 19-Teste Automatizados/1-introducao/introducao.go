@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"introducao-testes/enderecos"
+)
 
 func main() {
-	tipoEndereco := enderecos.tipoEndereco("Avenida Paulista")
+	tipoEndereco := enderecos.TipoDeEndereco("Avenida Paulista")
 	fmt.Println(tipoEndereco)
 }
