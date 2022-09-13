@@ -21,7 +21,7 @@ func TestTipoDeEndereco(t *testing.T) {  // parametro para executar test
 		{"Esquina treze", "Tipo Inválido"},
 		{"Travessa boa menina", "Tipo Inválido"},
 		{"Estrada das coisas", "Estrada"},
-		// {"", "Tipo Inválido"},
+		{"", "Tipo Inválido"},
 		
 	}
 
